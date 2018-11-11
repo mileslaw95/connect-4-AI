@@ -11,4 +11,6 @@ Alpha Beta Pruning on Game Tree
 
 In game_tree.py, a game tree is implemented for connect-4. Each node has up to 7 children node corresponding to a move on each position on the board. Implemented a simple heurestic which counts how many 2-connected pieces a player has.  The more 2-connected pieces, the higher score, it is it assigned. For each 2-connected piece, we give the board position a (+1) score For a winning position, we give the board position an arbitrary (+100) AI makes decision by evaluating the game tree and choosing the best move using a Minimax algorithm. Also, implemented Alpha-Beta pruning to minimize the search space of the Minimax algorithm. The depth of the game tree is a variable that the user can specify.
 
+To play against the AI, simply run game.py. This will initialize you to play against AI trained on neural network. 
+
 E-mail milesklaw@yahoo.ca for inquiries on the code.
