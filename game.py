@@ -1141,7 +1141,6 @@ clf.fit(training_data, training_targets)
 g = Game( clf )
 print g.board
 g.print_board( g.board )
-g.self_play("mlp","random")
-print "Well, nothing crashed …"
+g.play("mlp")
 
 
